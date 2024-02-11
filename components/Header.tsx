@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/Image';
 import React from 'react'
 import { ToggleTheme } from './ToggleTheme';
 import SearchInput from './SearchInput';
