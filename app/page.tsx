@@ -5,7 +5,6 @@ import {
   getTopRatedMovies,
   getPopularMovies
 } from "@/lib/getMovies";
-import Image from "next/image";
 
 export default async function Home() {
   const upcomingMovies = await getUpcomingMovies();
@@ -19,7 +18,7 @@ export default async function Home() {
 
       <div className="flex flex-col space-y-2 xl:-mt-48">
         <MovieCarousel
-          movies={...upcomingMovies}
+          movies={...upcomingMovies} // eslint-disable-line
           title="Upcoming"
         />
         <MovieCarousel
