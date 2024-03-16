@@ -11,7 +11,8 @@ const nextConfig = {
         hostname: "image.tmdb.org"
       }
     ]
-  }
+  },
+  distDir: 'build',
 };
 
 export default nextConfig;
